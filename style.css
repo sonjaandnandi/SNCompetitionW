@@ -44,13 +44,13 @@ b {
 }
 
 .panel {
-	background-color: #808080;
+	background-color: #cccccc;
 	max-width: 185px;
 }
 
 .panel-body {
 	position: center;
-	background-color: #808080;
+	background-color: #cccccc;
 }
 
 
