@@ -45,11 +45,12 @@ b {
 
 .panel {
 	background-color: #808080;
+	max-width: 185px;
 }
 
 .panel-body {
 	max-width: 185px;
-	position:center;
+	position: center;
 	background-color: #808080;
 }
 
