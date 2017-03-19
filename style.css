@@ -40,6 +40,9 @@ b {
   color: #00cc00;
 }
 
+.panel {
+	max-width: 200px;
+}
 
 /*.recipe {}
 .imgtiles {}*/
