@@ -46,8 +46,12 @@ b {
 .panel {
 	background-color: black;
 	max-width: 185px;
-	color: antiquewhite
-	text-align: center
+}
+
+.panel-header {
+	background-color: black;
+	color: antiquewhite;
+	text-align: center;
 }
 
 .panel-body {
