@@ -26,10 +26,6 @@ h3 {
   text-align:center;
 }
 
-body {
-	background-color: #f5f5f0;
-}
-
 p {
 	color: gray;
 	text-align: center;
@@ -46,6 +42,7 @@ b {
 .panel {
 	background-color: black;
 	max-width: 185px;
+	color: antiquewhite;
 }
 
 .panel-heading {
