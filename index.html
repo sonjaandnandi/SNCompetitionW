@@ -10,6 +10,25 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css"> 
     
+    <script>
+$(document).ready(function(){
+    $(".panel").click(function(){
+        $(this).show();
+        $(".panel").not(this).hide();
+    });
+});
+      
+
+/*$(document).ready(function(){
+    $("panel").hover(function(){
+        $(".this").fadeToggle();
+
+    });
+});*/
+
+</script>
+    
+    
   </head>
 
   <body>
