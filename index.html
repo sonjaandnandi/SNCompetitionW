@@ -12,7 +12,7 @@
     
     <script>
 $(document).ready(function(){
-    $(".panel").click(function(){
+    $(".panel").toggle(function(){
         $(this).show();
         $(".panel").not(this).hide();
     });
