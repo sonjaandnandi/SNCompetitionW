@@ -11,22 +11,21 @@
     <link rel="stylesheet" href="style.css"> 
     
     <script>
+    /*
 $(document).ready(function(){
-    $(".panel").toggle(function(){
+    $(".panel").click(function(){
         $(this).show();
-        $(".panel").not(this).hide();
     });
 });
-      
 
-/*$(document).ready(function(){
+$(document).ready(function(){
     $("panel").hover(function(){
         $(".this").fadeToggle();
 
     });
 });*/
 
-</script>
+  </script>
     
     
   </head>
@@ -52,6 +51,7 @@ $(document).ready(function(){
         
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
             <div class="panel">
+              <button data-toggle="collapse" data-target="#recipeBlackBeans"></button>
               <div class="panel-heading">Black Beans</div>
               <div class="panel-body"> 
                 <img src=pictures/black-beans.jpg alt= black-beans width="150" height="150" vspace="5" hspace="1"> 
@@ -161,7 +161,9 @@ $(document).ready(function(){
     
 <!-- recipe container will go here ________________________________ -->
     
-    <div id="recipebox" class="container">
+
+    
+    <div id="recipebox" class="container" height="200" width="90%">
       <div id="recipeBlackBeans" class="panel" class="collapse">
         <h2>Refried Black Bean Dip</h2>
         <h3>500g canned black beans</h3>
