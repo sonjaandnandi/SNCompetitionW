@@ -2,6 +2,10 @@
 	position: relative;
 }
 
+.container {
+	padding: 30px;
+}
+
 .jumbotron {
 	background-color: black;
 	color: antiquewhite;
