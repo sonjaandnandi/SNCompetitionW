@@ -2,6 +2,10 @@
 	position: relative;
 }
 
+.container {
+	padding: 30px;
+}
+
 .jumbotron {
 	background-color: black;
 	color: antiquewhite;
@@ -67,7 +71,9 @@ b {
 	background-color: black;
 }
 
-
-
-/*.recipe {}
-*/
+#recipeBox.panel {
+    	max-width: 1000px;
+    	margin: auto;
+    	margin-top: 50px;
+    	margin-bottom: 40px;
+}
